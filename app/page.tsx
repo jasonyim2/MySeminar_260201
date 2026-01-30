@@ -99,8 +99,8 @@ export default function LandingPage() {
             className="text-xl md:text-2xl text-blue-600 font-semibold leading-relaxed max-w-2xl mx-auto mb-8"
           >
             "썬칩샘, 뭐라도 만들자" 강의 시리즈
-            <br className="hidden sm:block" />
-            <span className="text-zinc-700 font-medium">
+            <br className="block" />
+            <span className="text-zinc-700 font-medium mt-1 block sm:inline sm:mt-0">
               노코드 AI로 앱 만들기 (초급자 과정)
             </span>
           </motion.p>
