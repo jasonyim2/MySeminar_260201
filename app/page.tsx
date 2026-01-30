@@ -198,7 +198,10 @@ export default function LandingPage() {
             <h2 className="text-4xl md:text-5xl font-bold text-zinc-900 tracking-tight mb-4">
               Mark Your Calendar.
             </h2>
-            <p className="text-xl text-zinc-500">일정을 확인하세요</p>
+            <p className="text-xl text-zinc-500 mb-2">일정을 확인하세요</p>
+            <p className="text-sm text-zinc-600 font-medium">
+              아래 두 과정은 동일 내용을 가르칩니다.
+            </p>
           </motion.div>
 
           <motion.div
@@ -236,7 +239,7 @@ export default function LandingPage() {
                   </h3>
                   <div className="flex items-center gap-2 text-zinc-500">
                     <Calendar className="w-4 h-4" />
-                    <span>5시간 수업</span>
+                    <span>오후 12시반 - 5시반</span>
                   </div>
                 </div>
               </div>
@@ -272,8 +275,11 @@ export default function LandingPage() {
                   </h3>
                   <div className="flex items-center gap-2 text-zinc-500">
                     <Calendar className="w-4 h-4" />
-                    <span>5시간 수업 (오전 + 오후)</span>
+                    <span>오전 10시 - 오후 4시</span>
                   </div>
+                  <p className="text-zinc-400 text-sm ml-6 mt-1">
+                    점심시간 1시간 포함
+                  </p>
                 </div>
               </div>
             </motion.div>
@@ -319,12 +325,18 @@ export default function LandingPage() {
                 </div>
                 <h3 className="text-lg font-bold text-zinc-900">준비물</h3>
               </div>
-              <div className="flex flex-wrap gap-3">
-                <span className="bg-zinc-100 text-zinc-700 px-3 py-1 rounded-full text-sm font-medium">
-                  💻 노트북
-                </span>
-                <span className="bg-zinc-100 text-zinc-700 px-3 py-1 rounded-full text-sm font-medium">
-                  ✉️ Gmail 계정
+              <div className="flex flex-col gap-3">
+                <div className="flex flex-wrap gap-3">
+                  <span className="bg-zinc-100 text-zinc-700 px-3 py-1 rounded-full text-sm font-medium">
+                    💻 노트북
+                  </span>
+                  <span className="bg-zinc-100 text-zinc-700 px-3 py-1 rounded-full text-sm font-medium">
+                    ✉️ Gmail 계정
+                  </span>
+                </div>
+                <span className="self-start bg-indigo-50 text-indigo-900 border border-indigo-100 px-3 py-1 rounded-full text-sm font-medium flex items-center gap-1.5">
+                  <Sparkles className="w-3.5 h-3.5 text-indigo-600 fill-indigo-600" />
+                  제미나이 로그인 계정 (모두 필수)
                 </span>
               </div>
             </motion.div>
