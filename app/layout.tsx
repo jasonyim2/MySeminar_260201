@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: '노코드 AI로 앱 만들기 - 초급자 과정 | SunChip 강사',
+  title: '노코드 AI로 앱 만들기 - 초급자 과정 | 강사 썬칩샘 임선집',
   description: 'Anyone can build an app. Join the No-Code AI App Building Course for beginners with Teacher SunChip. 왕초보도 전문가로!',
   generator: 'v0.app',
   icons: {
